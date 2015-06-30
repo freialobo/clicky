@@ -18,6 +18,10 @@ body {
 	font-family: $SansSerifLight;
 	padding-top: 9em;
 
+	a {
+		color: $teal;
+	}
+
 	.intro {
 		font-size: 1.6em;
 		letter-spacing: 11px;
@@ -49,5 +53,9 @@ body {
 			text-transform: uppercase;
 			font-family: $SansSerifLight;
 		}
+	}
+
+	.message {
+		padding-top: 2em;
 	}
 }

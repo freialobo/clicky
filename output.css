@@ -8,6 +8,8 @@ body {
   text-align: center;
   font-family: RalewayExtraLight;
   padding-top: 9em; }
+  body a {
+    color: #64b9ac; }
   body .intro {
     font-size: 1.6em;
     letter-spacing: 11px;
@@ -33,5 +35,7 @@ body {
       padding-bottom: 13px;
       text-transform: uppercase;
       font-family: RalewayExtraLight; }
+  body .message {
+    padding-top: 2em; }
 
 /*# sourceMappingURL=output.css.map */
