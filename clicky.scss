@@ -1,1 +1,53 @@
-/* CSS declarations go here */
+@font-face {
+	font-family: AleoLight;
+	src: url("Aleo-Light.otf");
+}
+
+@font-face {
+	font-family: RalewayExtraLight;
+	src: url("Raleway-ExtraLight.ttf");
+}
+
+// variables
+$SansSerifLight: RalewayExtraLight;
+$SerifLight: AleoLight;
+$teal: rgb(100, 185, 172);
+
+body {
+	text-align: center;
+	font-family: $SansSerifLight;
+	padding-top: 9em;
+
+	.intro {
+		font-size: 1.6em;
+		letter-spacing: 11px;
+		text-transform: uppercase;
+	}	
+
+	.clicky {
+		color: $teal;
+		text-transform: uppercase;
+		font-family: $SerifLight;
+		font-size: 11em;
+		letter-spacing: -7px;
+		margin-top: -25px;
+	}
+
+	.button {
+		padding-top: 35px;
+		padding-bottom: 55px;
+
+		button {
+			border: none;
+			background-color: black;
+			color: white;
+			font-size: 2em;
+			padding-left: 27px;
+			padding-right: 27px;
+			padding-top: 13px;
+			padding-bottom: 13px;
+			text-transform: uppercase;
+			font-family: $SansSerifLight;
+		}
+	}
+}

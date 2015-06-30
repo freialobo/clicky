@@ -1,0 +1,37 @@
+@font-face {
+  font-family: AleoLight;
+  src: url("Aleo-Light.otf"); }
+@font-face {
+  font-family: RalewayExtraLight;
+  src: url("Raleway-ExtraLight.ttf"); }
+body {
+  text-align: center;
+  font-family: RalewayExtraLight;
+  padding-top: 9em; }
+  body .intro {
+    font-size: 1.6em;
+    letter-spacing: 11px;
+    text-transform: uppercase; }
+  body .clicky {
+    color: #64b9ac;
+    text-transform: uppercase;
+    font-family: AleoLight;
+    font-size: 11em;
+    letter-spacing: -7px;
+    margin-top: -25px; }
+  body .button {
+    padding-top: 35px;
+    padding-bottom: 55px; }
+    body .button button {
+      border: none;
+      background-color: black;
+      color: white;
+      font-size: 2em;
+      padding-left: 27px;
+      padding-right: 27px;
+      padding-top: 13px;
+      padding-bottom: 13px;
+      text-transform: uppercase;
+      font-family: RalewayExtraLight; }
+
+/*# sourceMappingURL=output.css.map */
